@@ -12,13 +12,15 @@
 
 ### Installation
 
-Dependencies in this project are provided via Xcodegen (project.yml). Please install all dependecies with
+Dependencies in this project are provided via Tuist (Project.swift).
+Please install all dependecies with following commands
 
 Install Tuist:
 
 `
 bash <(curl -Ls https://install.tuist.io)
 `
+
 And after Run 
 
 `
