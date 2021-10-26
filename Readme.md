@@ -1,5 +1,7 @@
 # Marvel Universe
 
+[![Tuist badge](https://img.shields.io/badge/Powered%20by-Tuist-blue)](https://tuist.io)
+
 ### Display list of Marvel comic Characters and its detail view
 
 <a href="url"><img src="https://github.com/nigarsk/MarvelUniverse/blob/master/ProjectInfo/Marvel-7.png" align="left" height="480" width="250" ></a>
