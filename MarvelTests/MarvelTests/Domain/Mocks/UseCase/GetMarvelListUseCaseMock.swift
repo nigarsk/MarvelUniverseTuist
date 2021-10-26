@@ -1,4 +1,4 @@
-@testable import Marvel
+@testable import MarvelIndia
 
 final class GetMarvelListUseCaseMock: GetMarvelListUseCaseContract {
     var marvelListResult: MarvelListResponse!

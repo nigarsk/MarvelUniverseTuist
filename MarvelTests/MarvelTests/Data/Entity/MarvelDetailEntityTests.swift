@@ -1,5 +1,5 @@
 import XCTest
-@testable import Marvel
+@testable import MarvelIndia
 
 class MarvelDetailEntityTests: XCTestCase {
     func testToDomain() {

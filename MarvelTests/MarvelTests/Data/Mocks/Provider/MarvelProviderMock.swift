@@ -1,4 +1,4 @@
-@testable import Marvel
+@testable import MarvelIndia
 
 typealias MarvelListResponse = Result<MarvelListModel, UseCaseError>
 typealias MarvelDetailsResponse = Result<MarvelDetailModel, UseCaseError>

@@ -1,4 +1,4 @@
-@testable import Marvel
+@testable import MarvelIndia
 
 extension MarvelDetailModel {
     static func dummyModel() -> MarvelDetailModel {

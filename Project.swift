@@ -20,13 +20,26 @@ let project = Project(
   settings: nil,
   targets: [
     Target(
-      name: "Marvel",
+      name: "MarvelIndia",
       platform: .iOS,
       product: .app,
-      bundleId: "com.globant.marvel",
-      infoPlist: "Marvel/Info.plist",
-      sources: ["Marvel/Source/**"],
-      resources: ["Marvel/Resources/**","Marvel/Source/Feature/UI/**"],
+      bundleId: "com.globant.marvelin",
+      infoPlist: "MarvelIndia/Info.plist",
+      sources: ["Base/Source/**", "Base/Application/**"],
+      resources: ["MarvelIndia/Resources/**","Base/Source/Feature/UI/**"],
+      dependencies: [
+        .package(product: "Alamofire"),
+        .package(product: "AlamofireImage")
+      ],
+      settings: nil),
+    Target(
+      name: "MarvelUS",
+      platform: .iOS,
+      product: .app,
+      bundleId: "com.globant.marvelus",
+      infoPlist: "MarvelUS/Info.plist",
+      sources: ["MarvelUS/Source/**", "Base/Application/**"],
+      resources: ["MarvelUS/Resources/**","MarvelUS/Source/Feature/UI/**"],
       dependencies: [
         .package(product: "Alamofire"),
         .package(product: "AlamofireImage")
@@ -41,7 +54,7 @@ let project = Project(
       sources: ["MarvelTests/MarvelTests/**"],
       resources: ["MarvelTests/MarvelTests/Data/Mocks/JSON/**"],
       dependencies: [
-        .target(name: "Marvel")
+        .target(name: "MarvelIndia")
       ]
     )
 ])

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Marvel
+@testable import MarvelIndia
 
 final class MarvelListPresenterMock: MarvelListPresenterContract {
     var view: MarvelListViewContract?

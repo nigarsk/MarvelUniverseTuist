@@ -1,7 +1,7 @@
 import XCTest
 import Alamofire
 
-@testable import Marvel
+@testable import MarvelIndia
 
 typealias CompletionStub = Result<Data?, NetworkError>
 private final class MarvelServiceMock: MarvelServiceProtocol {
