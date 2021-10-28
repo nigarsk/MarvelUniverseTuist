@@ -4,13 +4,13 @@ import ProjectDescriptionHelpers
 let project = Project.app(
   name: "MarvelIndia",
   packages: [
-    Package.remote(
+    .remote(
       url: "https://github.com/Alamofire/Alamofire.git",
       requirement: .upToNextMajor(
         from: Version(5, 4, 3)
       )
     ),
-    Package.remote(
+    .remote(
       url: "https://github.com/Alamofire/AlamofireImage.git",
       requirement: .upToNextMajor(
         from: Version(4, 2, 0)
@@ -20,8 +20,6 @@ let project = Project.app(
   resources: [
     "Resources/**"
   ],
-  features: [
-    "Marvel"
-  ],
+  features: ["Data","Domain","Marvel"],
   dependencies: []
 )
